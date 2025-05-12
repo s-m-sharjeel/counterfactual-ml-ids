@@ -1,0 +1,21 @@
+# Core dependencies
+numpy==1.24.3
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.7.1
+seaborn==0.12.2
+jupyter==1.0.0
+
+# Explainable AI
+dice-ml==0.9
+shap==0.41.0
+lime==0.2.0.1
+
+# Data handling
+tqdm==4.65.0
+kaggle==1.5.12
+
+# Runtime dependencies
+python-dateutil==2.8.2
+pytz==2023.3
+six==1.16.0
