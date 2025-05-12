@@ -30,8 +30,6 @@ This implementation accompanies our research paper:
 *Shaikh Muhammad Sharjeel, Omar Ashraf Khan, Muhammad Jawad Maqsood*  
 Institute of Business Administration, Karachi, Pakistan
 
-[comment]: [Download Paper (PDF)](#) | [DOI Link](#)
-
 ## Quick Start
 
 ### Prerequisites
@@ -96,8 +94,6 @@ jupyter notebook cicids-ids-2018-using-randomforest.ipynb
 
 ### System Architecture
 
-[comment]: ![System Architecture Diagram](docs/system_architecture.png)
-
 #### First Layer - Random Forest Classifier
 - **Training Data**: Balanced CIC-IDS2018 dataset
 - **Model Configuration**:
@@ -140,7 +136,8 @@ counterfactuals = exp.generate_counterfactuals(
     diversity_weight=1.0)
 ```
 
-🛠️ Project Structure
+## Project Structure
+
 counterfactual-ml-ids/
 ├── data/                   # Dataset directory
 ├── docs/                   # Documentation and visuals
@@ -151,22 +148,9 @@ counterfactual-ml-ids/
 ├── LICENSE
 └── README.md
 
-🤝 Contributing
-We welcome contributions! Please follow these steps:
-
-Fork the repository
-
-Create your feature branch (git checkout -b feature/AmazingFeature)
-
-Commit your changes (git commit -m 'Add some AmazingFeature')
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
-
-📜 License
+## License
 Distributed under the MIT License. See LICENSE for more information.
 
-✉️ Contact
+## Contact
 Shaikh Muhammad Sharjeel - s.muhammad.26932@khi.iba.edu.pk
 Project Link: https://github.com/s-m-sharjeel/counterfactual-ml-ids
