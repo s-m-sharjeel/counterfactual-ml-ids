@@ -57,11 +57,12 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 ```bash
 pip install -r requirements.txt
-Dataset Setup
-The implementation uses the CIC-IDS2018 dataset (specifically the Friday traffic capture). To automatically download and prepare the dataset:
 ```
 
-5. Configure Kaggle API (requires account):
+4. Dataset Setup
+The implementation uses the CIC-IDS2018 dataset (specifically the Friday traffic capture). To automatically download and prepare the dataset:
+
+Configure Kaggle API (requires account):
 
 ```bash
 mkdir ~/.kaggle
@@ -69,7 +70,7 @@ cp kaggle.json ~/.kaggle/
 chmod 600 ~/.kaggle/kaggle.json
 ```
 
-6. Run the dataset setup script:
+Run the dataset setup script:
 
 ```bash
 python scripts/download_dataset.py
@@ -82,7 +83,7 @@ Alternatively, manually download from:
 
 Place the CSV file in ./data/ directory.
 
-7. Running the Notebook
+5. Running the Notebook
 
 - Launch Jupyter and open the main notebook:
 
@@ -152,5 +153,6 @@ counterfactual-ml-ids/
 Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact
-Shaikh Muhammad Sharjeel - s.muhammad.26932@khi.iba.edu.pk
-Project Link: https://github.com/s-m-sharjeel/counterfactual-ml-ids
+* Shaikh Muhammad Sharjeel - s.muhammad.26932@khi.iba.edu.pk
+* Omar Ashraf Khan - o.khan.26985@khi.iba.edu.pk
+* Muhammad Jawad Maqsood - m.maqsood.27080@khi.iba.edu.pk
